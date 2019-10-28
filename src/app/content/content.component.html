@@ -1,7 +1,6 @@
 
 <div class="content-container">
     <div class="content-title">{{title}}</div>
-
     <mat-tab-group>
         <mat-tab label="Responsive"> 
             <div class="resp-box-container">
@@ -29,7 +28,16 @@
                           </div>
             </div>
         </mat-tab>
-        <mat-tab label="Second"> Content 2 </mat-tab>
+        <mat-tab label="Unit Test">
+            <div class="resp-box-container">
+                <button class="btn-danger margin-all" (click)="displayName(true)">Click me to display Boy</button>  
+                <button class="btn-danger margin-all"  (click)="displayName(false)">Click me to display Girl</button>  
+                <div class="margin-all">
+                    <label>{{userName}}</label>
+                </div>
+            </div>
+
+        </mat-tab>
         <mat-tab label="Third"> Content 3 </mat-tab>
       </mat-tab-group>
       

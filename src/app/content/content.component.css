@@ -1,9 +1,41 @@
 .content-container {
   display: flex;
-  align-items: center;
-  justify-content: center;
-  min-height: 88vh;
+  /* align-items: center;
+  justify-content: center; */
+  min-height: 87vh;
   background-color: white;
   min-width: 90vw;
   margin: 5px 0px 5px 0px;
+  flex-direction: column;
+}
+
+.content-title {
+background-color: black;
+color: blanchedalmond;
+}
+
+.display-center {
+  display: flex;
+  justify-content: center;
+}
+
+.resp-box-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.resp-box {
+  width: 250px;
+  height: 250px;
+  background-color: orange;
+  margin: 10px;
+}
+
+:host ::ng-deep .mat-tab-header {
+  background: rgb(86, 182, 193);
+}
+
+:host ::ng-deep .mat-tab-body-wrapper {
+  /* min-height: 82vh; */
+  /* background: rgb(200, 231, 200); */
 }

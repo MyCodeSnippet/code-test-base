@@ -1,5 +1,37 @@
 
 <div class="content-container">
-    <div>{{title}}</div>
+    <div class="content-title">{{title}}</div>
+
+    <mat-tab-group>
+        <mat-tab label="Responsive"> 
+            <div class="resp-box-container">
+                           <div class="row display-center">
+                                <div class="col-xs-3">
+                                        <div class="resp-box"></div>
+                                        <div class="resp-box"></div>
+                                        <div class="resp-box"></div>
+                                </div>
+                                <div class="col-xs-3">
+                                        <div class="resp-box"></div>
+                                        <div class="resp-box"></div>
+                                        <div class="resp-box"></div>
+                                </div>
+                                <div class="col-xs-3">
+                                        <div class="resp-box"></div>
+                                        <div class="resp-box"></div>
+                                        <div class="resp-box"></div>
+                                </div>
+                                <div class="col-xs-3">
+                                        <div class="resp-box"></div>
+                                        <div class="resp-box"></div>
+                                        <div class="resp-box"></div>
+                                </div>
+                          </div>
+            </div>
+        </mat-tab>
+        <mat-tab label="Second"> Content 2 </mat-tab>
+        <mat-tab label="Third"> Content 3 </mat-tab>
+      </mat-tab-group>
+      
 </div>
 <router-outlet></router-outlet>

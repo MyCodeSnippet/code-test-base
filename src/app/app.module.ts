@@ -6,6 +6,10 @@ import { ContentModule } from './content/content.module';
 import { ContentComponent } from './content/content.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MatTabsModule } from '@angular/material';
+import { ReactiveFormsModule } from '@angular/forms';
+import { BindModule } from './content/bind/bind.module';
+import { HttpClientModule } from '@angular/common/http';
+import { TabsModule } from './content/tabs/tabs.module';
 
 @NgModule({
   declarations: [
@@ -17,7 +21,11 @@ import { MatTabsModule } from '@angular/material';
     AppRoutingModule,
     ContentModule,
     BrowserAnimationsModule,
-    MatTabsModule
+    MatTabsModule,
+    ReactiveFormsModule,
+    BindModule,
+    HttpClientModule,
+    TabsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
